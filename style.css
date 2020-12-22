@@ -1,67 +1,24 @@
-body{
-	padding: 0;
-	margin: 0;
-	font-family: sans-serif;
-	background-color:  #d6d6d6;
-}
-.header {
-	width: 100%;
-	height: 45px;
-	background-color: white;
-	padding-top: 20px;
-	margin-bottom: 50px;
-
-}
-.header-text h1{
-	width: 600px;
-	background-color: white;
-	margin: 0 auto;
-}
-
-
-.container{
-	background-color: #eaeaea;
-	margin: 0;
-	width: 100%;
-	padding-top: 20px;
-	padding-bottom: 10px;
-	
-}
-.card{
-	width: 600px;
-	height: 570px;
-	background-color: white;
-	margin: 0 auto;
-	margin-bottom: 50px;
-
-
-}
-.post-name{
-	float: left;
-}
-.date{
-	float: right;
-	color: #a7a8a8;
-}
-.post-photo{
-	margin-bottom: 20px
-}
-.post-footer{
-	border-top-style: solid;
-	border-top-width: 0.1px;
-	border-top-color: #eaeaea;
-}
-
-h2{
-	margin: 20px;
-
-}
-p{ 
-	margin: 20px;
-	margin-bottom: 0;
-}
-
-
+.img-resize{
+    padding: 3px;
+    text-align: center;
+    object-fit: cover;
+    height: 400px;
+  }
+  .col-4{
+    text-align: center;
+  }
+  .nav{
+    margin: auto;
+    padding: 10px;
+  }
+  a.active.nav-link{
+    background-color: #a6a6a6!important;
+    color: grey;
+  }
+  .card{
+    padding: 5px;
+    margin-top: 20px;
+  }
   .fecha{
     width: 25%;
     display: inline-block;
@@ -72,8 +29,83 @@ p{
     display: inline-block;
     text-align: left;
   }
-  .card{
-    padding: 5px;
-	margin-top: 20px;
-	height: auto;
+
+  body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-color:  #d6d6d6;
   }
+  .header {
+    width: 100%;
+    height: 45px;
+    background-color: white;
+    padding-top: 20px;
+    margin-bottom: 50px;
+  
+  }
+  .header-text h1{
+    width: 600px;
+    background-color: white;
+    margin: 0 auto;
+  }
+  
+  
+  .container{
+    background-color: #eaeaea;
+    margin: 0;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    
+  }
+  .card{
+    width: 600px;
+    height: 570px;
+    background-color: white;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  
+  
+  }
+  .post-name{
+    float: left;
+  }
+  .date{
+    float: right;
+    color: #a7a8a8;
+  }
+  .post-photo{
+    margin-bottom: 20px
+  }
+  .post-footer{
+    border-top-style: solid;
+    border-top-width: 0.1px;
+    border-top-color: #eaeaea;
+  }
+  
+  h2{
+    margin: 20px;
+  
+  }
+  p{ 
+    margin: 20px;
+    margin-bottom: 0;
+  }
+  
+  
+    .fecha{
+      width: 25%;
+      display: inline-block;
+      text-align: right;
+    }
+    .titulo{
+      width: 74%;
+      display: inline-block;
+      text-align: left;
+    }
+    .card{
+      padding: 5px;
+    margin-top: 20px;
+    height: auto;
+    }
