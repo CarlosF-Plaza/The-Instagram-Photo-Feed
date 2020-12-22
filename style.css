@@ -2,6 +2,7 @@ body{
 	padding: 0;
 	margin: 0;
 	font-family: sans-serif;
+	background-color:  #d6d6d6;
 }
 .header {
 	width: 100%;
@@ -59,3 +60,20 @@ p{
 	margin: 20px;
 	margin-bottom: 0;
 }
+
+
+  .fecha{
+    width: 25%;
+    display: inline-block;
+    text-align: right;
+  }
+  .titulo{
+    width: 74%;
+    display: inline-block;
+    text-align: left;
+  }
+  .card{
+    padding: 5px;
+	margin-top: 20px;
+	height: auto;
+  }
